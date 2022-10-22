@@ -70,6 +70,7 @@
     <Content Include="Global.asax" />
     <Content Include="Q1.aspx" />
     <Content Include="Q2.aspx" />
+    <Content Include="Q2_Sub.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -90,6 +91,13 @@
     </Compile>
     <Compile Include="Q2.aspx.designer.cs">
       <DependentUpon>Q2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Q2_Sub.aspx.cs">
+      <DependentUpon>Q2_Sub.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Q2_Sub.aspx.designer.cs">
+      <DependentUpon>Q2_Sub.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
