@@ -10,6 +10,11 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            保單號碼<asp:Literal ID="lit_Msg" runat="server"></asp:Literal><br />
+            訊號種碼<asp:Literal ID="lit_Msg1" runat="server"></asp:Literal><br />
+            通訊號碼<asp:Literal ID="lit_Msg2" runat="server"></asp:Literal><br />
+            所在城市<asp:Literal ID="lit_Msg3" runat="server"></asp:Literal><br />
+            所在區域<asp:Literal ID="lit_Msg4" runat="server"></asp:Literal><br />
         </div>
     </form>
 </body>
